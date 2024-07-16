@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+}
+
+:root {
+    --fs-18: 18.18px;
+    --fs-45: 45px;
+
+    --fw-200: 200;
+    --fw-500: 500;
+
+    --ff-Kalnia: "Kalnia Glaze", serif;
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-45 {
+    font-size: var(--fs-45);
+}
+
+.fw-200 {
+    font-weight: var(--fw-200);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.ff_Kalnia {
+    font-family: var(--ff-Kalnia);
+}
+
+.card-1 {
+    padding: 24px;
+    cursor: pointer;
+    max-height: 100%;
+    background-color: #f5f5f5;
+    max-width: 555px !important;
+    border: 1px solid #000000;
+}
+
+.Btn-1 {
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    background-color: #f5f5f5;
+}
+
+.Box-0 {
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: #fff;
+    border: 1px solid black;
+    background-color: #f5f5f5;
+}
